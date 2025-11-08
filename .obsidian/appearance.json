@@ -1,0 +1,18 @@
+{
+  "accentColor": "#a7b7d4",
+  "cssTheme": "FastPpuccin",
+  "theme": "obsidian",
+  "baseFontSizeAction": true,
+  "monospaceFontFamily": "",
+  "baseFontSize": 15,
+  "interfaceFontFamily": "",
+  "textFontFamily": "",
+  "enabledCssSnippets": [
+    "Spoiler",
+    "Number Header",
+    "Table Tweaks",
+    "UI Tweaks",
+    "anuppuccin-extended-colorschemes"
+  ],
+  "nativeMenus": true
+}

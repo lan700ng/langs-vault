@@ -1,0 +1,10 @@
+{
+	"id": "page-scroll",
+	"name": "Page Scroll - Modded",
+	"version": "1.0.1-lang",
+	"minAppVersion": "0.15.0",
+	"description": "Plugin buat Page Up|Down|Top|Bottom, ku modifikasi sedikit supaya tombolnya hilang, cuma ada command id nya aja, supaya bisa di atur lewat Commander.",
+	"author": "triski",
+	"authorUrl": "https://github.com/chenshutian9610",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,233 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": false,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "app:reload",
+      "icon": "lucide-rotate-ccw",
+      "name": "Reload app without saving",
+      "mode": "any"
+    },
+    {
+      "id": "switcher:open",
+      "icon": "lucide-plus-circle",
+      "name": "Quick switcher: Open quick switcher",
+      "mode": "any"
+    },
+    {
+      "id": "toggle-dark-mode:toggle-dark-mode",
+      "icon": "lucide-moon",
+      "name": "Toggle Dark Mode: Toggle",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-style-settings:show-style-settings-leaf",
+      "icon": "lucide-settings-2",
+      "name": "Style Settings: Show style settings view",
+      "mode": "any"
+    },
+    {
+      "id": "command-palette:open",
+      "icon": "lucide-square-terminal",
+      "name": "Command palette: Open command palette",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:open",
+      "icon": "lucide-book",
+      "name": "Files: Show file explorer",
+      "mode": "any"
+    },
+    {
+      "id": "vertical-tabs:open-vertical-tabs",
+      "icon": "lucide-grip-vertical",
+      "name": "Vertical Tabs: Open vertical tabs",
+      "mode": "any"
+    },
+    {
+      "id": "page-scroll:page-scroll-top",
+      "icon": "lucide-chevron-up",
+      "name": "Page Scroll - Modded: page-top",
+      "mode": "any"
+    },
+    {
+      "id": "page-scroll:page-scroll-bottom",
+      "icon": "lucide-chevron-down",
+      "name": "Page Scroll - Modded: page-bottom",
+      "mode": "any"
+    },
+    {
+      "id": "zenmode:toggle-zen-mode",
+      "icon": "lucide-sparkle",
+      "name": "Zen Mode: Toggle",
+      "mode": "any"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-text-format:uppercase"
+        }
+      ],
+      "name": "Uppercase",
+      "icon": "lucide-case-sensitive",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-text-format:lowercase"
+        }
+      ],
+      "name": "Lowercase",
+      "icon": "lucide-case-lower",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-text-format:capitalize-word"
+        }
+      ],
+      "name": "Capital 1",
+      "icon": "lucide-a-arrow-up",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-text-format:capitalize-sentence"
+        }
+      ],
+      "name": "Capital 2",
+      "icon": "lucide-a-arrow-down",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-text-format:heading-upper"
+        }
+      ],
+      "name": "Upper Header",
+      "icon": "lucide-move-up-right",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "obsidian-text-format:heading-lower"
+        }
+      ],
+      "name": "Lower Header",
+      "icon": "lucide-move-down-left",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "zenmode:toggle-zen-mode"
+        }
+      ],
+      "name": "Zen",
+      "icon": "star",
+      "startup": false
+    },
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "editor:toggle-italics"
+        },
+        {
+          "action": 1,
+          "delay": "50"
+        },
+        {
+          "action": 0,
+          "commandId": "editor:toggle-strikethrough"
+        }
+      ],
+      "name": "Spoiler",
+      "icon": "lucide-eye-off",
+      "startup": false
+    }
+  ],
+  "explorer": [
+    {
+      "id": "app:delete-file",
+      "icon": "lucide-trash-2",
+      "name": "Delete current file",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:move-file",
+      "icon": "lucide-folder-tree",
+      "name": "Move current file to another folder",
+      "mode": "any"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": "6",
+  "advancedToolbar": {
+    "rowHeight": 30,
+    "rowCount": 2,
+    "spacing": 0,
+    "buttonWidth": 30,
+    "columnLayout": false,
+    "mappedIcons": [
+      {
+        "commandID": "cmdr:macro-0",
+        "iconID": "lucide-case-upper"
+      },
+      {
+        "commandID": "cmdr:macro-1",
+        "iconID": "lucide-case-lower"
+      },
+      {
+        "commandID": "cmdr:macro-2",
+        "iconID": "lucide-a-arrow-up"
+      },
+      {
+        "commandID": "cmdr:macro-3",
+        "iconID": "lucide-a-arrow-down"
+      },
+      {
+        "commandID": "cmdr:macro-4",
+        "iconID": "lucide-move-up-right"
+      },
+      {
+        "commandID": "cmdr:macro-5",
+        "iconID": "lucide-move-down-left"
+      },
+      {
+        "commandID": "codeblock-customizer:codeblock-customizer-restore-fold-editor",
+        "iconID": "lucide-folder-dot"
+      },
+      {
+        "commandID": "cmdr:macro-7",
+        "iconID": "lucide-eye-off"
+      }
+    ],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

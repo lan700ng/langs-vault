@@ -1,0 +1,27 @@
+/*
+author: pseudometa
+source: https://discord.com/channels/686053708261228577/702656734631821413/893816224247586868
+*/
+
+/* pseudo(meta) spoiler tags */
+/* blacks out non-hovered-nonactive text surrounded in *~~text~~* */
+/* modded a bit for visible in read, source and live view*/
+.theme-light {
+  --spoiler-bg: var(--background-modifier-border); 
+  
+}
+.theme-dark {
+  --spoiler-bg: var(--background-modifier-border); 
+  
+}
+.cm-em.cm-strikethrough, em > del > strong , b {
+  font-style: initial;
+  background-color: var(--spoiler-bg);
+  text-decoration-color: ;
+  color: var(--spoiler-bg);
+}
+.cm-em.cm-strikethrough:hover, em > del:hover, strong:hover {
+  background-color: var(--background-primary) !important;
+  text-decoration-color: transparent !important;
+  color: var(--text-normal); !important/* add this to show text on hover */
+}

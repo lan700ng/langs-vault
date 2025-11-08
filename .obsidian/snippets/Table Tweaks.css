@@ -1,0 +1,79 @@
+/* Hide the # tags */
+.markdown-preview-view table a[href="#red"],
+.markdown-preview-view table a[href="#orange"],
+.markdown-preview-view table a[href="#yellow"],
+.markdown-preview-view table a[href="#green"],
+.markdown-preview-view table a[href="#cyan"],
+.markdown-preview-view table a[href="#blue"],
+.markdown-preview-view table a[href="#purple"],
+.markdown-preview-view table a[href="#pink"],
+.markdown-preview-view table a[href="#T"],
+.markdown-preview-view table a[href="#F"] {
+  display: none;
+}
+
+
+/* Do changes to our marked table */
+/* .markdown-rendered table:has(a[href="#F"]) {
+  th, & td {
+    font-size:8px !important;
+  } */
+.markdown-rendered table:has(a[href="#T"]) {
+  & th, td {
+    font-size: 6px !important;
+    border: 1px solid var(--color-base-50);
+  }
+/*   & th, & td {
+  border-collapse: collapse;
+  padding: 8px;
+} */
+/*   & thead th {
+  width: 25%;
+  background-color: #666666;
+  color: #fff;
+  text-align: left;
+  font-size: 0.875 rem;
+  text-transform: uppercase;
+  letter-spacing: 2%;
+} */
+
+  /* & tbody tr:nth-child(even) {
+    background-color: #eee;
+  }
+  & tbody tr:nth-child(odd) {
+    background-color: #fff;
+  } */
+
+  & td:has(a[href="#red"]) {
+    background-color: var(--color-red);
+    font-weight: bold;
+  }
+  & td:has(a[href="#orange"]) {
+    background-color: var(--color-orange);
+    font-weight: bold;
+  }
+  & td:has(a[href="#yellow"]) {
+    background-color: var(--color-yellow);
+    font-weight: bold;
+  }
+  & td:has(a[href="#green"]) {
+    background-color: var(--color-green);
+    font-weight: bold;
+  }
+  & td:has(a[href="#cyan"]) {
+    background-color: var(--color-cyan);
+    font-weight: bold;
+  }
+  & td:has(a[href="#blue"]) {
+    background-color: var(--color-blue);
+    font-weight: bold;
+  }
+  & td:has(a[href="#purple"]) {
+    background-color: var(--color-purple);
+    font-weight: bold;
+  }
+  & td:has(a[href="#pink"]) {
+    background-color: var(--color-pink);
+    font-weight: bold;
+  }
+}

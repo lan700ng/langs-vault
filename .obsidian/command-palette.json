@@ -1,0 +1,8 @@
+{
+  "pinned": [
+    "workspace:new-tab",
+    "keyboard-analyzer:open-quick-view",
+    "editor:fold-all",
+    "editor:unfold-all"
+  ]
+}

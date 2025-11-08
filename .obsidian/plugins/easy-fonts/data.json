@@ -1,0 +1,30 @@
+{
+  "interfaceNormalFont": {
+    "path": "",
+    "base64": ""
+  },
+  "interfaceBoldFont": {
+    "path": "",
+    "base64": ""
+  },
+  "interfaceItalicFont": {
+    "path": "",
+    "base64": ""
+  },
+  "textNormalFont": {
+    "path": "",
+    "base64": ""
+  },
+  "textBoldFont": {
+    "path": "",
+    "base64": ""
+  },
+  "textItalicFont": {
+    "path": "",
+    "base64": ""
+  },
+  "monospaceFont": {
+    "path": "",
+    "base64": ""
+  }
+}

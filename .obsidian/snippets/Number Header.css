@@ -1,0 +1,39 @@
+/* Memunculkan nomor di setiap Header */
+ .HyperMD-header-1::after,
+.HyperMD-header-2::after,
+.HyperMD-header-3::after,
+.HyperMD-header-4::after,
+.HyperMD-header-5::after,
+.HyperMD-header-6::after {
+font-size: 0.6rem;
+font-weight: 650;
+font-family: inherit;
+text-transform: uppercase;
+padding-left: 5px;
+border-radius: var(--radius-s);
+opacity: 0.35;
+}
+
+.HyperMD-header-1::after {
+    content: "1";
+ }
+.HyperMD-header-2::after {
+    content: "2";
+ }
+.HyperMD-header-3::after {
+    content: "3";
+ }
+.HyperMD-header-4::after {
+    content: "4";
+ }
+.HyperMD-header-5::after {
+    content: "5";
+ }
+.HyperMD-header-6::after {
+    content: "6";
+ }
+
+/* .inline-title {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+} */

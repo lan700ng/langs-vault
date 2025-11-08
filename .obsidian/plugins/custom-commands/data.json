@@ -1,0 +1,20 @@
+{
+  "commands": [
+    {
+      "id": "home",
+      "name": "Home",
+      "path": "Lang's Notes",
+      "type": "open"
+    },
+    {
+      "id": "hotkey",
+      "type": "open",
+      "name": "Hotkey",
+      "path": "Lang's Folder/Konfig Obsidian",
+      "templatePath": "",
+      "snippet": "",
+      "commandIds": ""
+    }
+  ],
+  "leaf": false
+}
