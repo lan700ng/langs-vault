@@ -7,4 +7,4 @@ What's inside:
 - Hotkeys
 - and more!
 
-![sc](sc.mp4)
+https://github.com/user-attachments/assets/02e82b86-337b-4aef-a0f4-2a95c46f9de7
