@@ -7,4 +7,4 @@ What's inside:
 - Hotkeys
 - and more!
 
-![gif](test.gif)
+![sc](sc.mp4)
